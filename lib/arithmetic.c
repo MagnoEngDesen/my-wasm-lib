@@ -6,15 +6,15 @@ double performFixedPointOperation(double a, double b, int operation, int decimal
         decimalPlaces = 6; // Valor padrão de 6 casas decimais
     }
 
-    int multiplier = 1;
+    long long multiplier = 1;
     for (int i = 0; i < decimalPlaces; i++) {
         multiplier *= 10;
     }
 
-    int intA = (int)(a * multiplier);
-    int intB = (int)(b * multiplier);
+    long long intA = (long long)(a * multiplier);
+    long long intB = (long long)(b * multiplier);
 
-    int result;
+    long long result;
     switch (operation) {
         case 0:  // Adição
             result = intA + intB;
