@@ -1,0 +1,40 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Módulos Node.js
+node_modules/
+
+# Logs e arquivos de saída
+npm-debug.log
+yarn-error.log
+
+# Arquivos de configuração
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.local
+.env.*.local
+.env.*.development
+.env.*.test
+.env.*.production
+
+# Arquivos de construção
+/build
+
+# Arquivos compilados
+*.log
+*.min.js
+*.min.css
+*.min.map
+
+# Arquivos de cache
+.cache
+.cached
+.cache-loader
+
+# Arquivos gerados
+coverage/
+dist/
